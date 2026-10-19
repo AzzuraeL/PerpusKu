@@ -1,0 +1,47 @@
+# ── Build output ──────────────────────────────────────────
+bin/
+obj/
+publish/
+[Dd]ebug/
+[Rr]elease/
+*.exe
+*.dll
+*.pdb
+
+# ── IDE / editor ──────────────────────────────────────────
+.vs/
+.idea/
+.rider/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+
+# ── .NET / NuGet ──────────────────────────────────────────
+*.nupkg
+project.lock.json
+artifacts/
+
+# ── Local DB artifacts ────────────────────────────────────
+*.mdf
+*.ldf
+*.ldc
+
+# ── OS junk ───────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ── Agent / design-system instructions (private) ──────────
+CLAUDE.md
+DESIGN.md
+.claude/
+AGENTS.md
+
+# ── Temp ──────────────────────────────────────────────────
+*.tmp
+*.bak
+~$*
