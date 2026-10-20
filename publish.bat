@@ -26,5 +26,5 @@ if errorlevel 1 (
 echo.
 echo [SELESAI] Aplikasi ada di folder: %~dp0publish
 echo Jalankan: publish\PerpusKu.exe
-echo Catatan: folder "Database" dan appsettings.json harus tetap berada di samping PerpusKu.exe.
+echo Catatan: folder "Database", "LatoFont", dan appsettings.json harus tetap berada di samping PerpusKu.exe.
 pause
